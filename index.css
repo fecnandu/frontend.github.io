@@ -1,0 +1,174 @@
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+   color: rgb(88, 85, 85);
+}
+li ul{
+    text-decoration: none;
+    list-style: none;
+    display: none;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+
+}
+li:hover>ul{
+    display: block;
+    position: absolute;
+    margin-top: 55px;
+    
+}
+.iconos{
+    display: flex;
+    position: relative;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+transition: all 300ms;
+   width: 0px;
+   height: 30px;
+   margin-left: 15%;
+   
+gap: 10px;
+
+    
+    
+}
+
+.nav{
+   
+    margin-top: 2.5%;
+    justify-content: center;
+    
+    width: 200px;
+    height: 200px;
+    display: flex;
+    position: absolute;
+    margin-left: 15%;
+    
+    align-items: center;
+    
+}
+i{
+    width: 0px;
+    gap: 50px;
+    
+    
+}
+a:hover{
+    color: rgb(0, 0, 0);
+}
+.encima{
+    display: flex;
+    
+   
+}
+.direcci{
+    display: flex;
+    position: absolute;
+    gap: 150px;
+    
+}
+.menu{
+    border: solid black 1px;
+    
+}
+.seccion{
+     
+    width: 600px;
+    height: 400px;
+    display: block;
+    margin-left: 10%;
+    margin-top: -40%;
+    
+    
+}
+.seccion1{
+    width: 10px;
+    height: 100px;
+    font-size: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+   
+
+}
+.seccion2{
+    font-size: 100px;
+}
+
+.text{
+    
+    align-items: center;
+    justify-content: center;
+    color: rgb(84, 88, 84);
+    margin-top: -40%;
+}
+
+.botton{
+    width: 190px;
+    height: 60px;
+    
+    background-color: rgb(9, 9, 9);
+    border-radius: 20px 20px 20px 20px;
+    position: absolute;
+    margin-top: -13%;
+    border: solid black 1px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+.botex{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 24px;
+    margin-top: -9%;
+    margin-left: 15%;
+    transition: all 300ms;
+  
+    
+}
+.botton:hover{
+    background-color: aliceblue;
+    transform: scale(1.2);
+    color: black;
+}
+.botex:hover{
+    color: black;
+    
+}
+.iconas{
+    list-style: none;
+    margin-left: 80%;
+    display: flex;
+    position: relative;
+    width: 100px;
+   margin-top: 2.5%;
+    position: relative;
+    gap: 100%;
+}
+.marcas{
+    margin-left: 10%;
+    margin-top: 10%;
+    display: flex;
+    gap: 50px;
+    
+}
+.logo{
+    position: relative;
+    margin: 2%;
+    transition: all 300ms;
+    cursor: pointer;
+}
+.logo:hover{
+    transform:translate(50px);
+}
+
+.iconos:hover{
+    transform: scale(1.5);
+}
